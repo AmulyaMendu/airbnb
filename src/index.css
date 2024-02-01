@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.slick-prev {
+  position: absolute;
+  top: -15px !important; 
+
+  transform: translateY(-50%);
+  left: 98% !important;
+  color: #ff0000 !important;
+    background-color: pink  !important; /*to notice it, is white*/
+}
+.slick-next {
+  position: absolute;
+ top: -15px !important; 
+  transform: translateY(-50%);
+  right: 10px;
+  color: black !important;
+
+  background-color: pink  !important; /*to notice it, is white*/
+}
